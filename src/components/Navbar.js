@@ -8,7 +8,7 @@ const Navbar = ({ toggleSidebar }) => {
       <div className="nav-center">
         <div className="nav-header">
           <img src={logo} alt="logo" />
-          <button type="button" className="toggle-btn">
+          <button type="button" className="toggle-btn" onClick={toggleSidebar}>
             <FaAlignRight></FaAlignRight>
           </button>
         </div>
@@ -18,4 +18,4 @@ const Navbar = ({ toggleSidebar }) => {
   )
 }
 
-export default Navbar;
+export default Navbar

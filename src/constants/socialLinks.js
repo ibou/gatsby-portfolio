@@ -3,6 +3,7 @@ import {
   FaLinkedin,
   FaTwitterSquare,
   FaGithubSquare,
+  FaInstagramSquare,
 } from "react-icons/fa"
 
 const data = [
@@ -20,6 +21,11 @@ const data = [
   {
     id: 3,
     icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
+    url: "https://twitter.com/ibou888",
+  },
+  {
+    id: 4,
+    icon: <FaInstagramSquare className="social-icon"></FaInstagramSquare>,
     url: "https://twitter.com/ibou888",
   },
 ]

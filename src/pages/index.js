@@ -13,8 +13,7 @@ export default ({ data }) => {
     allStrapiProjects: { nodes: projects },
     allStrapiBlogs: { nodes: blogs },
   } = data;
-
-  console.log(blogs);
+ 
 
   return (
     <Layout>
